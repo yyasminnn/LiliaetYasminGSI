@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUMERISATION DE PAROLES DE CHANSONS CHAABI ALGERIENNES</title>
+    <style>
+        body {
+            background-color: #D8BFAF; /* Light brown background */
+            color: white; /* White text */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            max-width: 800px;
+            margin: auto;
+            line-height: 1.6;
+        }
+        .bold-brown {
+            font-weight: bold;
+            color: #8B4513; /* Brown color */
+        }
+    </style>
+</head>
+<body>
+    <h1>NUMERISATION DE PAROLES DE CHANSONS CHAABI ALGERIENNES</h1>
+    <p>
+        <span class="bold-brown">Qu'est-ce que le Chaabi ?</span>
+        <br><br>
+        Le Chaabi est un genre musical répandu à Alger, apparu au début du 20e siècle. Le mot "Chaabi" signifie "populaire" en arabe et combine des éléments des traditions musicales nord-africaines, arabes, andalouses et berbères.
+        <br><br>
+        Le chaabi se caractérise par des paroles en arabe dialectal algérien, abordant divers thèmes tels que l'amour, les problèmes sociaux, la nostalgie, l'exil et la vie de tous les jours. Les instruments utilisés sont la mandole, le banjo, les percussions et même parfois le qanun, le piano, le violon, etc.
+        <br><br>
+        Le chaabi est fortement lié à la tradition musicale andalouse. Et plus spécifiquement, il est basé sur le répertoire classique arabo-andalou algérien de l'école d'Alger, appelé Sanaa. La sanaa est composée de différents modes, systèmes rythmiques et formes (nubat).
+    </p>
+</body>
+</html>
