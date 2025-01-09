@@ -4,7 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - Paroles Chaabi</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #D8BFAF; /* Light brown background */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #8B4513; /* Dark brown */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 1.8em;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: calc(100vh - 120px); /* Full height minus header/footer */
+            text-align: center;
+        }
+        .intro-image {
+            max-width: 80%; /* Makes the image responsive */
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for elegance */
+            margin-bottom: 20px;
+        }
+        .intro-text {
+            font-size: 1.5em; /* Larger font size for readability */
+            color: #4A2C2A; /* Dark brown for harmony with the site theme */
+            line-height: 1.8; /* Better line spacing */
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #8B4513; /* Dark brown */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -16,18 +73,14 @@
         </nav>
     </header>
     <main>
-        <section id="introduction">
-            <img src="image_chaabi_el-anka.jpg"  alt="Musicien Chaabi" class="intro-image">
-        
-            <p>
-                Qu'est-ce que le Chaabi ?
-                Le Chaabi est un genre musical répandu à Alger, apparu au début du 20e siècle. Le mot "Chaabi" signifie "populaire" en arabe et combine des éléments des traditions musicales nord-africaines, arabes, andalouses et berbères.
-                Le chaabi se caractérise par des paroles en arabe dialectal algérien, abordant divers thèmes tels que l'amour, les problèmes sociaux, la nostalgie, l'exil et la vie de tous les jours. Les instruments utilisés sont la mandole, le banjo, les percussions et même parfois le qanun, le piano, le violon, etc.
-                Le chaabi est fortement lié à la tradition musicale andalouse. Et plus spécifiquement, il est basé sur le répertoire classique arabo-andalou algérien de l'école d'Alger, appelé Sanaa. La sanaa est composée de différents modes, systèmes rythmiques et formes (nubat).
+        <img src="image_chaabi_el-anka.jpg" alt="Musicien Chaabi" class="intro-image">
+        <p class="intro-text">
+            Qu'est-ce que le Chaabi ?
+            Le Chaabi est un genre musical répandu à Alger, apparu au début du 20e siècle. Le mot "Chaabi" signifie "populaire" en arabe et combine des éléments des traditions musicales nord-africaines, arabes, andalouses et berbères.
+            Le chaabi se caractérise par des paroles en arabe dialectal algérien, abordant divers thèmes tels que l'amour, les problèmes sociaux, la nostalgie, l'exil et la vie de tous les jours. Les instruments utilisés sont la mandole, le banjo, les percussions et même parfois le qanun, le piano, le violon, etc.
+            Le chaabi est fortement lié à la tradition musicale andalouse. Et plus spécifiquement, il est basé sur le répertoire classique arabo-andalou algérien de l'école d'Alger, appelé Sanaa. La sanaa est composée de différents modes, systèmes rythmiques et formes (nubat).
 
-        
-            </p>
-        </section>
+        </p>
     </main>
     <footer>
         <p>&copy; 2024 Paroles Chaabi. Tous droits réservés.</p>
