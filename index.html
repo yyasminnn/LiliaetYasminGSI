@@ -34,16 +34,14 @@
             text-decoration: underline;
         }
         main {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: calc(100vh - 120px); /* Full height minus header/footer */
+            padding: 20px;
             text-align: center;
         }
         .intro-image {
-            max-width: 80%; /* Makes the image responsive */
-            height: auto;
+            max-width: 100%; /* Ensures the image never overflows horizontally */
+            max-height: 400px; /* Sets a maximum height for the image */
+            height: auto; /* Maintains aspect ratio */
+            width: auto; /* Ensures responsiveness */
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for elegance */
             margin-bottom: 20px;
@@ -53,7 +51,8 @@
             color: #4A2C2A; /* Dark brown for harmony with the site theme */
             line-height: 1.8; /* Better line spacing */
             max-width: 800px;
-            margin: 0 auto;
+            margin: 20px auto;
+            text-align: justify; /* Align text neatly */
         }
         footer {
             background-color: #8B4513; /* Dark brown */
@@ -75,11 +74,11 @@
     <main>
         <img src="image_chaabi_el-anka.jpg" alt="Musicien Chaabi" class="intro-image">
         <p class="intro-text">
-            Qu'est-ce que le Chaabi ?
             Le Chaabi est un genre musical répandu à Alger, apparu au début du 20e siècle. Le mot "Chaabi" signifie "populaire" en arabe et combine des éléments des traditions musicales nord-africaines, arabes, andalouses et berbères.
+            <br><br>
             Le chaabi se caractérise par des paroles en arabe dialectal algérien, abordant divers thèmes tels que l'amour, les problèmes sociaux, la nostalgie, l'exil et la vie de tous les jours. Les instruments utilisés sont la mandole, le banjo, les percussions et même parfois le qanun, le piano, le violon, etc.
+            <br><br>
             Le chaabi est fortement lié à la tradition musicale andalouse. Et plus spécifiquement, il est basé sur le répertoire classique arabo-andalou algérien de l'école d'Alger, appelé Sanaa. La sanaa est composée de différents modes, systèmes rythmiques et formes (nubat).
-
         </p>
     </main>
     <footer>
